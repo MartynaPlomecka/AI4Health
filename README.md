@@ -1,7 +1,6 @@
 # AI4Health
 
-In the multi-label classification, the training set (power spectra) is composed of instances each associated with a set of labels: <br />
-(7 different diagnoses: <br />
+In the multi-label classification, the training set (power spectra) is composed of instances each associated with a set of labels - 7 different diagnoses:<br />
  'Attention-Deficit/Hyperactivity Disorder',
  'Anxiety Disorders',
  'Specific Learning Disorder',
