@@ -9,9 +9,8 @@
  * 'Communication Disorder',
  * 'Depressive Disorders', <br />
  
-
-<br /><br /><br />
-## Metrics:
+<br />
+### Metrics:
 In our scripts, we provide the following metrics:
 * #### Hamming loss <br />
 * #### precision, recall and F1 score for each class <br />
