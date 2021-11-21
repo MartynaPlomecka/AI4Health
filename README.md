@@ -13,7 +13,7 @@
 
 ### Metrics:
 In our scripts, we provide the following metrics:
-* #### Hamming loss <br />
+* #### Hamming loss <br /> hamming loss value ranges from 0 to 1. Lesser value of hamming loss indicates a better classifier.
 * #### precision, recall and F1 score for each class <br />
 With the 3 different types of averaging:
      <br /> * micro (calculate metrics globally by counting the total true positives, false negatives and false positives)
