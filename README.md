@@ -51,19 +51,21 @@ Additionally, to obtain more robust estimates, we assessed the performance of ou
 
 ## Dataset
 Dataset can be found [here](https://osf.io/2vw6j/)
- * **train_features_sensor.csv** : <br />
+ * **train_features_sensor.csv**  <br />
     1440 rows(subjects) x 8508 columns(ID,demographics and features) <br />
     Columns 1-3 contain ID, gender and age.  <br />
     Columns 4-8298 contain power values of each electrode for the frequencies 1 to 40 Hz in steps of 0.5 Hz <br />
     Columns 8299 – 8508 contain the aperiodic intercept and slope parameter for each electrode. <br />
- * **test_features_sensor_classification.csv**: <br />
+ * **test_features_sensor_classification.csv** <br />
     Here, 481 rows (subjects) x 8508 columns (ID, demographics and features) provided
     This table contains test features that are used for the classification task. <br />
     The structure is identical to train_features_sensor.csv. <br />
- * **test_features_sensor_regression.csv**: <br />
+ * **test_features_sensor_regression.csv** <br />
     This table contains test features that are used for the regression task. <br />
     The structure is identical to train_features_sensor.csv <br />
     Here, 275 rows (subjects) x 8508 columns (ID, demographics and features) are provided <br />
-* **Chanlocs105.mat** provides channel locations (3D coordinates) for the 105 electrodes.
-* **EGI_hcgsn_128.pdf** visualizes channel locations of the full EEG cap (128 electrodes). <br />
+* **Chanlocs105.mat** <br /> 
+    Provides channel locations (3D coordinates) for the 105 electrodes.
+* **EGI_hcgsn_128.pdf** <br />
+    Visualizes channel locations of the full EEG cap (128 electrodes). <br />
   For the feature extraction, channels in the outermost circumference (chin and neck) and channels predominantly measuring    oculomotor activity were excluded.
