@@ -93,7 +93,7 @@ Features are extracted on **sensor level (105 electrodes)**, and **source level 
   Here, 275 rows (subjects) x 8508 columns (ID, demographics and features) are
 provided. <br />
 * **dkatlas_labels.csv** <br />
-  provides anatomical labels for the 68 parcels.
+  Provides anatomical labels for the 68 parcels.
 
 
 ### Labels are provided for the training features and contain: <br />
