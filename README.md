@@ -71,9 +71,9 @@ Hz in steps of 0.5 Hz. E.g., Column 4 “Electrode1_1_0_Hz” represents power o
 ⋅⋅* Here, 481 rows (subjects) x 8508 columns (ID, demographics and features) are
 provided
  * test_features_sensor_regression.csv:
-⋅⋅* This table contains test features that are used for the regression task.
-⋅⋅* The structure is identical to train_features_sensor.csv.
-⋅⋅* Here, 275 rows (subjects) x 8508 columns (ID, demographics and features) are
+ ⋅⋅*This table contains test features that are used for the regression task.
+ ⋅⋅*The structure is identical to train_features_sensor.csv
+ ⋅⋅*Here, 275 rows (subjects) x 8508 columns (ID, demographics and features) are
 provided
  * Chanlocs105.mat provides channel locations (3D coordinates) for the 105 electrodes.
  * EGI_hcgsn_128.pdf visualizes channel locations of the full EEG cap (128 electrodes). For the
