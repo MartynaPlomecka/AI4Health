@@ -50,7 +50,12 @@ Additionally, to obtain more robust estimates, we assessed the performance of ou
 
 
 ## Dataset
-Dataset can be found [here](https://osf.io/2vw6j/)
+Dataset can be found [here](https://osf.io/2vw6j/)  <br />
+
+Features are extracted on **sensor level (105 electrodes)**, and **source level (68 parcels)**.  <br />
+
+### On sensor level, the provided files contain:  <br />
+
  * **train_features_sensor.csv**  <br />
     1440 rows(subjects) x 8508 columns(ID,demographics and features) <br />
     Columns 1-3 contain ID, gender and age.  <br />
