@@ -85,12 +85,12 @@ Features are extracted on **sensor level (105 electrodes)**, and **source level 
 * **test_features_source_classification.csv** <br />
   This table contains test features that are used for the classification task. <br />
   The structure is identical to train_features_source.csv. <br />
-  Here, 481 rows (subjects) x 8508 columns (ID, demographics   and features) are provided <br />
+  Here, 481 rows (subjects) x 8508 columns (ID, demographics   and features) are provided. <br />
 * **test_features_source_regression.csv** <br />
   This table contains test features that are used for the regression task.<br />
   The structure is identical to train_features_source.csv.
   Here, 275 rows (subjects) x 8508 columns (ID, demographics and features) are
-provided <br />
+provided. <br />
 * **dkatlas_labels.csv** <br />
   provides anatomical labels for the 68 parcels.
 
