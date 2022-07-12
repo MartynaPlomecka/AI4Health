@@ -96,3 +96,12 @@ provided. <br />
   provides anatomical labels for the 68 parcels.
 
 
+### Labels are provided for the training features and contain: <br />
+* **train_labels_classification.csv** <br />
+  This table contains 1440 rows (subjects) x 9 columns (ID (column 1) and diagnosis
+labels (column 2-9)). <br />
+  Each diagnosis value can either be 1 (present) or 0 (not present) <br />
+* **train_labels_regression.csv** <br />
+  This table contains 1440 rows (subjects) x 8 columns (ID (column 1) and dimensional scores (column 2-8)). <br />
+  Scores are provided for the social communication index (SRS_SCI_T), restricted
+interests and repetitive behavior (SRS_RRB_T), inattention (SWAN_IN_Avg), hyperactivity (SWAN_HY_Avg), general anxiety (SCARED_P_GD), verbal comprehension index (WISC_VCI_Sum) and working memory index (WISC_WMI_SUM).
