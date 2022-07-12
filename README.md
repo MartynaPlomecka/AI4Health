@@ -68,7 +68,7 @@ Features are extracted on **sensor level (105 electrodes)**, and **source level 
  * **test_features_sensor_regression.csv** <br />
     This table contains test features that are used for the regression task. <br />
     The structure is identical to train_features_sensor.csv <br />
-    Here, 275 rows (subjects) x 8508 columns (ID, demographics and features) are provided <br />
+    Here, 275 rows (subjects) x 8508 columns (ID, demographics and features) are provided. <br />
 * **Chanlocs105.mat** <br /> 
     Provides channel locations (3D coordinates) for the 105 electrodes.
 * **EGI_hcgsn_128.pdf** <br />
