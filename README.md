@@ -14,6 +14,7 @@ The overarching goal of this challenge is to derive accurate predictions of the 
  * Disruptive
  * Communication Disorder
  * Depressive Disorders <br />
+
 As diagnoses are not mutually exclusive, this constitutes a multi-task multi-label classification problem, where several related binary classification rules need to be derived from the same data. <br />
 Performance metrics will be calculated and documented for individual disease tasks. <br />
 
@@ -31,7 +32,7 @@ Dimensional labels were obtained from cognitive and behavioral data of each subj
  * Social communication index (SRS-2 SCI scale)
  * Restricted interests and repetitive behaviour (SRS-2 RRB scale)
  * Verbal comprehension index (WISC VCI, scale) 
- * Working memory index (WISC WMI scale).
+ * Working memory index (WISC WMI scale)
 
 ## Performance metrics for the multi-target regression challenge
 The success in predicting continuous dimensional measures of symptom severity and cognitive performance in the second challenge is measured using the coefficient of determination (R2), the mean squared error (MSE), and the mean absolute error (MAE).<br />
