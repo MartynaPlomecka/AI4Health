@@ -74,3 +74,24 @@ Features are extracted on **sensor level (105 electrodes)**, and **source level 
 * **EGI_hcgsn_128.pdf** <br />
     Visualizes channel locations of the full EEG cap (128 electrodes). <br />
   For the feature extraction, channels in the outermost circumference (chin and neck) and channels predominantly measuring    oculomotor activity were excluded.
+  
+ ### On source level, the provided files contain:  <br />
+ 
+* **train_features_source.csv** <br />
+1440 rows(subjects) x 5511 columns (ID,demographics and features)<br />
+  Columns 1-3 contain ID, gender and age. <br />
+  Columns 4-5375 contain power values of each parcel for the frequencies 1 to 40 Hz <br />
+  Columns 5376 – 5511 contain the aperiodic intercept and slope parameter for each parcel. E.g., Column 5376 <br />
+* **test_features_source_classification.csv** <br />
+  This table contains test features that are used for the classification task. <br />
+  The structure is identical to train_features_source.csv. <br />
+  Here, 481 rows (subjects) x 8508 columns (ID, demographics   and features) are provided <br />
+* **test_features_source_regression.csv**
+  This table contains test features that are used for the regression task.<br />
+  The structure is identical to train_features_source.csv.
+  Here, 275 rows (subjects) x 8508 columns (ID, demographics and features) are
+provided <br />
+* **dkatlas_labels.csv** <br />
+  provides anatomical labels for the 68 parcels.
+
+
