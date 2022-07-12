@@ -1,4 +1,8 @@
 # AI4Health
+This repository contains baselines and data prepropcessing code for the Benchmark “A benchmark for prediction of psychiatric multimorbidity from resting EEG data in a large pediatric sample” [Langer et al, 2022](https://www.sciencedirect.com/science/article/pii/S1053811922004670)
+
+
+## 
 We provide an intuitive interface to reproduce our results and to use the methods presented here as a starting point for further research. All Multi-Output Classifiers were implemented using the Scikit-learn software (Pedregosa et al. 2011).
 ## Performance metrics for the multi-task multi-label classification challenge
 
@@ -44,3 +48,14 @@ In order to check the performance of the proposed baseline methods, we implement
 In the case of the classification task, we obtained a null distribution by comparing the classifier outputs on the test data to randomly shuffled test label vectors (i.e. shuffling baseline). Two further dummy classifiers were considered. First, a model predicting exactly zero for all samples and diagnoses was included (i.e. always zero baseline). Second, a more refined dummy model
 was constructed, which constantly predicted the proportion of positive labels for each diagnosis (i.e. label proportion baseline). These proportions were calculated from the training data. Thus, assuming that the proportion of positive cases for a diagnosis in the training set was 0.3, this model would constantly predict the probability of the same diagnosis to occur to be 0.3 as well for each new test sample. To avoid degeneracy when evaluating performance metrics on these dummy classifier outputs, a tiny amount of random noise was added, though. For all three dummy models/evaluations, a distribution of performance scores was obtained across 100 random shufflings/noise realizations. For the regression task, we used similar baselines, including shuffled label vectors (i.e. shuffled baseline). As dummy regressors, we used models that always predict the mean (i.e. mean baseline) or median (i.e. median baseline) of each individual score as estimated on the training set. <br />
 Additionally, to obtain more robust estimates, we assessed the performance of our models on a bootstrapped pseudo-test dataset, sampling 100 times with replacement, and using a sample size equal to the original data. Below, we describe the models used and report the average performance obtained on the pseudo-test dataset across the bootstrap repetitions as well as 95% confidence intervals. All models are compared to the random baselines described above.
+
+
+
+
+
+
+
+
+
+## Dataset
+Dataset can be found [here](https://osf.io/2vw6j/)
