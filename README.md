@@ -1,7 +1,5 @@
 # AI4Health
 This repository contains baselines and data prepropcessing code for the Benchmark “A benchmark for prediction of psychiatric multimorbidity from resting EEG data in a large pediatric sample” [Langer et al, 2022](https://www.sciencedirect.com/science/article/pii/S1053811922004670)
-
-
 ## 
 We provide an intuitive interface to reproduce our results and to use the methods presented here as a starting point for further research. All Multi-Output Classifiers were implemented using the Scikit-learn software (Pedregosa et al. 2011).
 ## Performance metrics for the multi-task multi-label classification challenge
@@ -63,19 +61,19 @@ Dataset can be found [here](https://osf.io/2vw6j/)
 
  * train_features_sensor.csv :
  1440rows(subjects)x8508columns(ID,demographicsandfeatures)
-⋅⋅⋅ Columns 1-3 contain ID, gender and age.
-⋅⋅⋅ Columns 4-8298 contain power values of each electrode for the frequencies 1 to 40
+⋅⋅* Columns 1-3 contain ID, gender and age.
+⋅⋅* Columns 4-8298 contain power values of each electrode for the frequencies 1 to 40
 Hz in steps of 0.5 Hz. E.g., Column 4 “Electrode1_1_0_Hz” represents power of electrode 1 at 1.0 Hz. Column 5 “Electrode1_1_5_Hz” represents power of electrode 1 at 1.5 Hz.
-⋅⋅⋅ Columns 8299 – 8508 contain the aperiodic intercept and slope parameter for each electrode. E.g., Column 8299 “Electrode1_Intercept” represents the aperiodic intercept of electrode 1. Column 8300 “Electrode1_Slope” represents the aperiodic slope of electrode 1.
+⋅⋅* Columns 8299 – 8508 contain the aperiodic intercept and slope parameter for each electrode. E.g., Column 8299 “Electrode1_Intercept” represents the aperiodic intercept of electrode 1. Column 8300 “Electrode1_Slope” represents the aperiodic slope of electrode 1.
  * test_features_sensor_classification.csv:
-⋅⋅⋅ This table contains test features that are used for the classification task.
-⋅⋅⋅ The structure is identical to train_features_sensor.csv.
-⋅⋅⋅ Here, 481 rows (subjects) x 8508 columns (ID, demographics and features) are
+⋅⋅* This table contains test features that are used for the classification task.
+⋅⋅* The structure is identical to train_features_sensor.csv.
+⋅⋅* Here, 481 rows (subjects) x 8508 columns (ID, demographics and features) are
 provided
  * test_features_sensor_regression.csv:
-⋅⋅⋅ This table contains test features that are used for the regression task.
-⋅⋅⋅ The structure is identical to train_features_sensor.csv.
-⋅⋅⋅ Here, 275 rows (subjects) x 8508 columns (ID, demographics and features) are
+⋅⋅* This table contains test features that are used for the regression task.
+⋅⋅* The structure is identical to train_features_sensor.csv.
+⋅⋅* Here, 275 rows (subjects) x 8508 columns (ID, demographics and features) are
 provided
  * Chanlocs105.mat provides channel locations (3D coordinates) for the 105 electrodes.
  * EGI_hcgsn_128.pdf visualizes channel locations of the full EEG cap (128 electrodes). For the
