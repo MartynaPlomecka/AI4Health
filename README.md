@@ -59,10 +59,10 @@ Features are extracted on **sensor level (105 electrodes)**, and **source level 
  * **train_features_sensor.csv**  <br />
     1440 rows(subjects) x 8508 columns(ID,demographics and features) <br />
     Columns 1-3 contain ID, gender and age.  <br />
-    Columns 4-8298 contain power values of each electrode for the frequencies 1 to 40 Hz in steps of 0.5 Hz <br />
+    Columns 4-8298 contain power values of each electrode for the frequencies 1 to 40 Hz in steps of 0.5 Hz. <br />
     Columns 8299 – 8508 contain the aperiodic intercept and slope parameter for each electrode. <br />
  * **test_features_sensor_classification.csv** <br />
-    Here, 481 rows (subjects) x 8508 columns (ID, demographics and features) provided
+    Here, 481 rows (subjects) x 8508 columns (ID, demographics and features) provided.
     This table contains test features that are used for the classification task. <br />
     The structure is identical to train_features_sensor.csv. <br />
  * **test_features_sensor_regression.csv** <br />
@@ -80,7 +80,7 @@ Features are extracted on **sensor level (105 electrodes)**, and **source level 
 * **train_features_source.csv** <br />
 1440 rows (subjects) x 5511 columns (ID,demographics and features)<br />
   Columns 1-3 contain ID, gender and age. <br />
-  Columns 4-5375 contain power values of each parcel for the frequencies 1 to 40 Hz <br />
+  Columns 4-5375 contain power values of each parcel for the frequencies 1 to 40 Hz. <br />
   Columns 5376 – 5511 contain the aperiodic intercept and slope parameter for each parcel. <br />
 * **test_features_source_classification.csv** <br />
   This table contains test features that are used for the classification task. <br />
