@@ -7,13 +7,13 @@ We provide an intuitive interface to reproduce our results and to use the method
 
 The overarching goal of this challenge is to derive accurate predictions of the existence of one or more psychiatric conditions in the presence of multimorbidities. <br />
  We included 7 different diagnoses <br />
- * Attention-Deficit/Hyperactivity Disorder,
- * Anxiety Disorders,
- * Specific Learning Disorder,
- * Autism Spectrum Disorder,
- * Disruptive, 
- * Communication Disorder,
- * Depressive Disorders, <br />
+ * Attention-Deficit/Hyperactivity Disorder
+ * Anxiety Disorders
+ * Specific Learning Disorder
+ * Autism Spectrum Disorder
+ * Disruptive
+ * Communication Disorder
+ * Depressive Disorders <br />
 As diagnoses are not mutually exclusive, this constitutes a multi-task multi-label classification problem, where several related binary classification rules need to be derived from the same data. <br />
 Performance metrics will be calculated and documented for individual disease tasks. <br />
 
@@ -28,7 +28,7 @@ Dimensional labels were obtained from cognitive and behavioral data of each subj
  * General anxiety (measured by the SCARED GAD scale)
  * Inattention (SWAN IN scale)
  * Hyperactivity (SWAN HY scale)
- * Social communication index (SRS-2 SCI scale);
+ * Social communication index (SRS-2 SCI scale)
  * Restricted interests and repetitive behaviour (SRS-2 RRB scale)
  * Verbal comprehension index (WISC VCI, scale) 
  * Working memory index (WISC WMI scale).
