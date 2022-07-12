@@ -1,5 +1,5 @@
 # AI4Health
-This repository contains baselines and data prepropcessing code for the Benchmark “A benchmark for prediction of psychiatric multimorbidity from resting EEG data in a large pediatric sample” [Langer et al, 2022](https://www.sciencedirect.com/science/article/pii/S1053811922004670)
+This repository contains baselines and data prepropcessing code for the Benchmark “A benchmark for prediction of psychiatric multimorbidity from resting EEG data in a large pediatric sample” [Langer et al, 2022](https://www.sciencedirect.com/science/article/pii/S1053811922004670), 
 ## 
 We provide an intuitive interface to reproduce our results and to use the methods presented here as a starting point for further research. All Multi-Output Classifiers were implemented using the Scikit-learn software (Pedregosa et al. 2011).
 ## Performance metrics for the multi-task multi-label classification challenge
