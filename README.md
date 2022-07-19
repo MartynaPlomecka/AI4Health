@@ -30,13 +30,11 @@ Dataset can be found [here](https://osf.io/2vw6j/)
    * Columns 4-8298 contain power values of each electrode for the frequencies 1 to 40 Hz in steps of 0.5 Hz.
    * Columns 8299 – 8508 contain the aperiodic intercept and slope parameter for each electrode.
  * __test_features_sensor_classification.csv__: <br />
+ 481 rows (subjects) x 8508 columns (ID, demographics and features) 
    *  This table contains test features that are used for the classification task.
    *  The structure is identical to train_features_sensor.csv
-   *  Here, 481 rows (subjects) x 8508 columns (ID, demographics and features) are
-provided
  * __test_features_sensor_regression.csv__: <br />
-275 rows (subjects) x 8508 columns (ID, demographics and features) are
-provided
+275 rows (subjects) x 8508 columns (ID, demographics and features)
    * This table contains test features that are used for the regression task.
    * The structure is identical to train_features_sensor.csv
  * __Chanlocs105.mat__ provides channel locations (3D coordinates) for the 105 electrodes.
