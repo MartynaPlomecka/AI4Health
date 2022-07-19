@@ -19,6 +19,8 @@ TODO:
 As diagnoses are not mutually exclusive, this constitutes a multi-task multi-label classification problem, where several related binary classification rules need to be derived from the same data. <br />
 Performance metrics will be calculated and documented for individual disease tasks. <br />
 
+## Performance metrics for the multi-task multi-label classification challenge
+
 The primary performance measure, which we use to rank contributions, is the area under the precision recall curve (AUPRC). Assuming continuous classifier outputs, the PRC for a single binary disease prediction task is a plot of the classifier’s precision (fraction of true positives among all positively predictions) as a function of its recall/sensitivity (fraction of true positives among all positive cases in the sample) for all possible thresholds of the decision function. The AUPRC is defined as the area under that curve, and takes values between 0 (perfect misclassification) and 1 (perfect classification). <br />
 This metric is well suited for imbalanced data as present here. <br />
 <br />
