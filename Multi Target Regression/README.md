@@ -1,13 +1,10 @@
-## Psychiatric Symptom Severity: a multi target regression challenge
+## Psychiatric Symptom Severity: a Multi-target regression challenge
 
 TODO:
 - say sth about the getting started ipynbs
 - link to the challenge https://health.aiaudit.org/web/challenges/challenge-page/338/overview
 - needed info about this challenge
 
-
-
-## Multi-target regression challenge
 Dimensional labels were obtained from cognitive and behavioral data of each subject. <br /> The following seven measures were selected:  <br />
  * General anxiety (measured by the SCARED GAD scale)
  * Inattention (SWAN IN scale)
