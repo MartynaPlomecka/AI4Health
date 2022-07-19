@@ -25,7 +25,7 @@ Dataset can be found [here](https://osf.io/2vw6j/)
 
 
  * train_features_sensor.csv :
- 1440rows(subjects)x8508columns(ID,demographicsandfeatures)
+ 1440 rows (subjects) x 8508 columns (ID, demographics and features)
 ⋅⋅* Columns 1-3 contain ID, gender and age.
 ⋅⋅* Columns 4-8298 contain power values of each electrode for the frequencies 1 to 40
 Hz in steps of 0.5 Hz. E.g., Column 4 “Electrode1_1_0_Hz” represents power of electrode 1 at 1.0 Hz. Column 5 “Electrode1_1_5_Hz” represents power of electrode 1 at 1.5 Hz.
