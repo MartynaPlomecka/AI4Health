@@ -2,13 +2,9 @@
 This repository contains baselines and data prepropcessing code for the Benchmark “A benchmark for prediction of psychiatric multimorbidity from resting EEG data in a large pediatric sample” [Langer et al, 2022](https://www.sciencedirect.com/science/article/pii/S1053811922004670)
 ## 
 We provide an intuitive interface to reproduce our results and to use the methods presented here as a starting point for further research. All Multi-Output Classifiers were implemented using the Scikit-learn software (Pedregosa et al. 2011).
-## Performance metrics for the multi-task multi-label classification challenge
-
-
 
 ##  Model Fitting
 We randomly split the data set into a 75% training set and a 25% test set. For the data split, we normalized the features using scikit-learn standard scaling method that scales each feature and label individually such that the values are in the given range ( i.e. between 0 and 1) on the training set. Subsequently, we applied these parameters for feature normalization of the training and test sets. Parameter estimation was based only on the training set to prevent data leakage from the training to test set. The normalization of features was followed by dimensionality reduction, which served to avoid overfitting of classifiers. Dimensionality reduction for the analyses reported in the manuscript was performed using principal component analysis (PCA). Thereby, we used the number of components that explained 95% of the variance. Again, PCA projections were calculated on the training data only and subsequently applied to both training and test sets.<br />
-
 
 ## Random Baselines
 In order to check the performance of the proposed baseline methods, we implemented dummy models and evaluations to represent random baselines. <br />
