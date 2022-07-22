@@ -4,7 +4,9 @@
 
 ### Getting started:
 - say sth about the getting started ipynbs
-- link to the challenge https://health.aiaudit.org/web/challenges/challenge-page/337/overview
+- the paper desxribing the benchmark's goals and challenge can be found here [Langer et al, 2022](https://www.sciencedirect.com/science/article/pii/S1053811922004670)
+- you can submit your predictions [here](https://health.aiaudit.org/web/challenges/challenge-page/337/overview)
+
 ---
 The overarching goal of this challenge is to derive accurate predictions of the existence of one or more psychiatric conditions in the presence of multimorbidities.<br />
 
