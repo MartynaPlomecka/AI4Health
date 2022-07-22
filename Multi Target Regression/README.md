@@ -1,7 +1,6 @@
 ## Psychiatric Symptom Severity: a Multi-target regression challenge
 
-TODO:
-- needed info about this challenge
+Challenge with the goal of prediction of psychiatric developmental symptom severity and cognitive performance indices on a dimensional level. 
 
 ---
 
