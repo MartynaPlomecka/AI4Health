@@ -1,14 +1,14 @@
 ## Multi-task Multi-label Classification Challenge
 
 ---
-The overarching goal of this challenge is to derive accurate predictions of the existence of one or more psychiatric conditions in the presence of multimorbidities.
 
 ### Getting started:
 - say sth about the getting started ipynbs
 - link to the challenge https://health.aiaudit.org/web/challenges/challenge-page/337/overview
 ---
+The overarching goal of this challenge is to derive accurate predictions of the existence of one or more psychiatric conditions in the presence of multimorbidities.<br />
 
- We included 7 different diagnoses 
+ In our benchmark, we included 7 different diagnoses 
  * Attention-Deficit/Hyperactivity Disorder,
  * Anxiety Disorders,
  * Specific Learning Disorder,
