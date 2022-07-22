@@ -31,7 +31,7 @@ This metric is well suited for imbalanced data as present here. <br />
 
 ### Secondary classification performance metric  <br />
 
--  **Area under the receiver operating curve (AUROC)** will be used as a secondary metric. <br />
+-  **Area under the receiver operating curve (AUROC)** 
 -   The ROC is a plot of sensitivity of a binary classifier as a function of its false positive rate (fraction of false positives among all negative cases in the sample). The area under the ROC curve is more commonly used than AUPRC but slightly less suitable for imbalanced data. It takes values between 0 (perfect misclassification) and 1 (perfect classification), where a value of 0.5 denotes chance-level performance. Both AUPRC and AUROC are aggregated across diagnoses by taking the arithmetic mean (macro average).<br />
 
 ### Further secondary classification performance metrics  <br />
