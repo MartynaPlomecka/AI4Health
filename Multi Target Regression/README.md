@@ -5,6 +5,16 @@ TODO:
 - link to the challenge https://health.aiaudit.org/web/challenges/challenge-page/338/overview
 - needed info about this challenge
 
+---
+
+### Getting started:
+- download the python [notebook](https://github.com/MartynaPlomecka/AI4Health/blob/challenge/Multi%20Label%20Classification/MultiLabelClassification_GettingStarted.ipynb)
+- download the prepared [dataset](https://osf.io/2vw6j/)
+- the paper describing the benchmark's goals and challenge can be found here [Langer et al, 2022](https://www.sciencedirect.com/science/article/pii/S1053811922004670)
+- you can submit your predictions [here](https://health.aiaudit.org/web/challenges/challenge-page/338/overview)
+
+---
+
 Dimensional labels were obtained from cognitive and behavioral data of each subject. <br /> The following seven measures were selected:  <br />
  * General anxiety (measured by the SCARED GAD scale)
  * Inattention (SWAN IN scale)
