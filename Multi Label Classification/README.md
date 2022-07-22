@@ -2,10 +2,10 @@
 
 ---
 The overarching goal of this challenge is to derive accurate predictions of the existence of one or more psychiatric conditions in the presence of multimorbidities.
-TODO:
+
+### Getting started:
 - say sth about the getting started ipynbs
 - link to the challenge https://health.aiaudit.org/web/challenges/challenge-page/337/overview
-- needed info about this challenge
 ---
 
  We included 7 different diagnoses 
