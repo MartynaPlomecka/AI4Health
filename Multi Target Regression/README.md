@@ -8,7 +8,7 @@ TODO:
 ---
 
 ### Getting started:
-- download the python [notebook](https://github.com/MartynaPlomecka/AI4Health/blob/challenge/Multi%20Label%20Classification/MultiLabelClassification_GettingStarted.ipynb)
+- download the python [notebook](https://github.com/MartynaPlomecka/AI4Health/blob/challenge/Multi%20Target%20Regression/MultiTargetRegression_GettingStarted.ipynb)
 - download the prepared [dataset](https://osf.io/2vw6j/)
 - the paper describing the benchmark's goals and challenge can be found here [Langer et al, 2022](https://www.sciencedirect.com/science/article/pii/S1053811922004670)
 - you can submit your predictions [here](https://health.aiaudit.org/web/challenges/challenge-page/338/overview)
