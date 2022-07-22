@@ -36,8 +36,8 @@ This metric is well suited for imbalanced data as present here. <br />
 
 ### Further secondary classification performance metrics  <br />
 (Derived from binarized model outputs) <br />
-- **Hamming loss** *(fraction of misclassified labels)* 
--  **F1 score**, defined as the *harmonic mean of precision and recall*.<br />
+- **Hamming loss** <br /> fraction of misclassified labels  
+-  **F1 score**, <br /> harmonic mean of precision and recall <br />
 Both metrics are normalized between 0 and 1, where higher F1 scores indicate better performance while higher Hamming losses indicate worse performance. To obtain aggregate scores, both metrics are calculated across the pooled predictions corresponding to all diagnoses (micro average).  <br /> 
--  **Brier score**. The Brier score is defined as *the mean squared difference between the predicted probability and the actual outcome*. 
+-  **Brier score**. <br /> The Brier score is defined as *the mean squared difference between the predicted probability and the actual outcome*. 
 The Brier score takes values between 0 and 1, where smaller Brier scores indicate better calibration. A 100% confident correct classification does not incur any loss in the Brier score, while a misclassification with 100% confidence assigned to the wrong class incurs the maximal loss of 1. Predictions with low confidence do incur intermediate losses even if they lead to correct classifications. To compute the Brier score, the provided continuous classifier outputs will be cropped to the interval [0, 1] in order to be interpreted as probabilities.<br /> Aggregate Brier scores are obtained by taking the mean squared difference jointly across all classes. <br />
