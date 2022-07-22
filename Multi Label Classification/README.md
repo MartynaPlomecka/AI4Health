@@ -10,14 +10,14 @@
 ---
 The overarching goal of this challenge is to derive accurate predictions of the existence of one or more psychiatric conditions in the presence of multimorbidities.<br />
 
- In our benchmark, we included 7 different diagnoses 
- * Attention-Deficit/Hyperactivity Disorder,
- * Anxiety Disorders,
- * Specific Learning Disorder,
- * Autism Spectrum Disorder,
- * Disruptive, 
- * Communication Disorder,
- * Depressive Disorders, <br />
+ In our benchmark, we included 7 different diagnoses:
+ * Attention-Deficit/Hyperactivity Disorder
+ * Anxiety Disorders
+ * Specific Learning Disorder
+ * Autism Spectrum Disorder
+ * Disruptive
+ * Communication Disorder
+ * Depressive Disorders <br />
 As diagnoses are not mutually exclusive, this constitutes a multi-task multi-label classification problem, where several related binary classification rules need to be derived from the same data. <br />
 Performance metrics will be calculated and documented for individual disease tasks. <br />
 
