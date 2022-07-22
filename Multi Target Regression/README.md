@@ -17,7 +17,7 @@ Dimensional labels were obtained from cognitive and behavioral data of each subj
  * General anxiety (measured by the SCARED GAD scale)
  * Inattention (SWAN IN scale)
  * Hyperactivity (SWAN HY scale)
- * Social communication index (SRS-2 SCI scale);
+ * Social communication index (SRS-2 SCI scale)
  * Restricted interests and repetitive behaviour (SRS-2 RRB scale)
  * Verbal comprehension index (WISC VCI, scale) 
  * Working memory index (WISC WMI scale).
